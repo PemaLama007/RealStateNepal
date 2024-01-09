@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+    .c-image{
+        flex-direction: column;
+        align-items: center;    
+
+
+    }
+    .c-image>img{
+        width: 70%;    
+    }
+
+  }
+  

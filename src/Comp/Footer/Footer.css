@@ -1,0 +1,29 @@
+.t{
+    color: var(--primary);
+}
+@media (max-width:640px) {
+    .f-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexColStart.f-left{
+        align-items: center;
+        justify-content: center;
+    }
+    .flexColStart.f-right{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+
+    .f-container>div {
+        align-items: center!important;
+        text-align: center;
+    }
+}
